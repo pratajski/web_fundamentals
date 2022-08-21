@@ -1,0 +1,40 @@
+body {
+    background-color: blue;
+
+}
+
+.lista {
+    color: forestgreen;
+    text-align: center;
+}
+
+#owoce {
+    color: red;
+}
+
+p {
+    font-weight: bold;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgb(207, 27, 27);
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px 25px;
+    /* margin: 25px 25px; */
+}
+
+li a:hover {
+    color: white;
+    background-color: coral;
+}
+
+li {
+    float: left;
+}
