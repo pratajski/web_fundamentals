@@ -3,19 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>My firs Web Pagr</title>
+    <style>
+        .lista {
+            color: forestgreen;
+            text-align: center;
+        }
+
+        #owoce {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <b>Tekst pogrubiony</b><br />
     <mark>Tekst oznaczony markiem</mark><br />
     <del>tekst przekreślony</del><br />
-    <p>Lista</p>
-    <h3>Lista nieposortowana owoców</h3>
+    <p class="lista">Listy nieposortowane</p>
+    <h3 id="owoce">Lista nieposortowana owoców</h3>
     <ul>
         <li>jabłko</li>
         <li>pomarańcza</li>
         <li>truskawka</li>
     </ul>
+    <h3 id="warzywa">Lista nieposortowana warzyw</h3>
+    <ul>
+        <li>pomidor</li>
+        <li>ogórek</li>
+        <li>cukinia</li>
+    </ul>
+
+    <p class="lista">Listy posortowane</p>
     <h3>Lista posortowana ulubionych filmów</h3>
     <ol>
         <li>Szklanką po łapkach</li>
@@ -23,6 +41,28 @@
         <li>Kosmiczna Odyseja 2001</li>
     </ol>
 
+
+    <br />
+    <a href="http://google.pl">Wyszukiwarka</a><br /><br />
+    <p>Tabele</p>
+    <table border="1px">
+        <tr>
+            <th>Tytuł</th>
+            <th>reżyser</th>
+        </tr>
+        <tr>
+            <td>Wszystko o mojej matce</td>
+            <td>Pedro</td>
+        </tr>
+        <tr>
+            <td>Zaginiona autostrada</td>
+            <td>Lynch</td>
+        </tr>
+
+    </table>
+    <br /><br />
+    <!-- iframe -->
+    <iframe src="second.html" frameborder="0" width="100px" height="200px"></iframe>
 </body>
 
 </html>
