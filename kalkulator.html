@@ -1,0 +1,53 @@
+<!--
+    skrypt czyta 2 liczby od użytkownika i zwraca ich sumę
+    stworzyć warunek logiczny do odejmowania, jeśli pierwsza licza jest mniejsza od drugiej
+    dodać funkcję pytania użytkownika o operator, który ma zostać użyty do działania (+, - ,* ,/)
+-->
+
+<html>
+
+<head>
+    <script>
+        var a;
+        var b;
+
+        a = Number(prompt("Podaj liczbę A"));
+        b = Number(prompt("Podaj liczbę B"));
+
+        var c;
+        // c = a + b;
+
+        // alert("Suma liczb = " + c);
+
+        // if (a > b) {
+        //     c = a - b;
+        //     alert("Wynik odejmowania " + a + " od " + b + " wynosi " + c);
+        // } else {
+        //     alert("Liczba A nie jest mniejsza od liczby B");
+        // }
+
+        var operator = prompt("Podaj operator działania");
+        if (operator === "+") {
+            c = a + b;
+            alert("Dodawanie = " + c);
+        } else if (operator === "-") {
+            c = a - b;
+            alert("Odejmowanie = " + c);
+        } else if (operator === "*") {
+            c = a * b;
+            alert("Mnożenie = " + c);
+        } else if (operator === "/") {
+            if (b != 0) {
+                c = a / b;
+                alert("Dzielenie = " + c);
+            } else {
+                alert("Nie można dzielić przez 0")
+            }
+        } else {
+            alert("Zły znak");
+        }
+
+    </script>
+</head>
+
+</html>
