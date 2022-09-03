@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script>
+
+        let counter = 0;
+        function hello() {
+            alert("Witaj");
+        }
+        function licz() {
+            counter++;
+            alert(counter);
+        }
+        function zmien_naglowek() {
+            if (document.querySelector('h1').innerHTML === "Goodbye!") {
+                document.querySelector('h1').innerHTML = "Hello!";
+            } else {
+                document.querySelector('h1').innerHTML = "Goodbye!";
+                // document.getElementById('drugi') ;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <!-- <button onclick="hello()">Witaj</button> -->
+    <!-- <button onclick="licz()">Licz kliknięcia</button> -->
+    <h1>Hello!</h1>
+    <button onclick="zmien_naglowek()">Kliknij tutaj</button>
+    <!-- <h1 id="drugi">Goodbye!</h1> -->
+    <!-- onload =  // onerror= -->
+</body>
+
+</html>
