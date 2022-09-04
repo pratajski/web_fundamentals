@@ -12,7 +12,7 @@ while (true) {
     if (userInput.toLowerCase() == "a") {
         var newItem = prompt("Podaj wartość do dodania");
         tablica.push(newItem);
-        // console.log("Dodano wartość")
+        console.log("Dodano wartość")
     }
     if (userInput.toLowerCase() == "r") {
         for (i = 0; i < tablica.length; i++) {
